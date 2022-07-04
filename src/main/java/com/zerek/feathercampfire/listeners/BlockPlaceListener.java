@@ -12,8 +12,8 @@ public class BlockPlaceListener implements Listener {
     @EventHandler
     public void onBlockPlace(BlockPlaceEvent event){
         if (event.getBlockPlaced().getType() == Material.CAMPFIRE){
-            Campfire campFire = (Campfire) event.getBlockPlaced();
-            campFire.setLit(false);
+            Campfire campfire = (Campfire) event.getBlockPlaced();
+            campfire.setLit(false);
         }
     }
 }
