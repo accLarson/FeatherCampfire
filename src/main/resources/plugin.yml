@@ -1,0 +1,6 @@
+name: FeatherCampfire
+version: '${project.version}'
+main: com.zerek.feathercampfire.FeatherCampfire
+api-version: 1.18
+authors: [ Zerek ]
+description: Allows players to automatically heal near a lit campfire and changes the default placement of campfire to unlit.
